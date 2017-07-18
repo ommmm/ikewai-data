@@ -43,5 +43,5 @@ SpCond_uS_cm  for Specific Conductance in microSiemens per centimeter. (Note: th
 
 More situations will arise than can be described here. The default choices should always favor clear documentation, uniform standards, and simple formats. For further guidance, see [New Mexico EPSCoR](https://www.nmepscor.org/data_portal/data-management-document-training) and [DataONE](https://www.dataone.org/best-practices/choose-and-use-standard-terminology-enable-discovery).
 
-###Next section to come: Special considerations for geospatial data###
+### Next section to come: Special considerations for geospatial data
 
