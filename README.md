@@ -1,9 +1,9 @@
-# ikewai-data
+#ikewai-data
 
 **Data Management Guidelines - University of Hawaii EPSCoR - ʻIke Wai: Knowledge of Water**
 
 
-### ʻIke Wai Spreadsheet Guidelines
+###ʻIke Wai Spreadsheet Guidelines
 
 These guidelines apply to all ʻIke Wai datasheets. Use them with Excel spreadsheets, Open Office, Google sheets, comma-separated csv files, tab-delimited or plain text files - wherever data are stored in a linear or sequential way. The goal is to leave your data clean, simple, and calculation-ready, making it easier to pull data into any software, allow datasets to work together, reuse procedures and code, and store and retrieve data reliably now and long into the future. Your effort is an investment that will pay off quickly and for a long time to come.
 
@@ -16,6 +16,14 @@ These guidelines apply to all ʻIke Wai datasheets. Use them with Excel spreadsh
 **A Comment or Notes column** can be used for notes that apply to individual lines. In conversion to csv (comma-separated value format), entries in any text column with commas must be set off with quotation marks “ ” around the entries that contain commas.
 
 **Formatting.** Usually, working with the default of left-justified text and right-justified numerals is a good visual check on values, decimal points, and significant digits. Do not center-justify. Do specify number of decimal points and limit significant digits where appropriate (“precision as displayed”).
+
+**BEFORE**: This spreadsheet may be pretty to look at, but it is not calculation-ready.
+
+
+**DURING**: Here are some of the changes that have to be made.
+
+
+**AFTER**: Samples have meaningful unique IDs, and variables and formats are calculation-ready.
 
 
 **2. OBSERVATIONS**
@@ -43,12 +51,16 @@ DateTime format within a single column is **YYYY-MM-DDThh:mm**.
 
 **Latitudes and Longitudes:** All latitudes (y, or N-S) and longitudes (x, or E-W) should be in **decimal degrees**.  Do not use degree minute second or decimal minute formats..Do not include letters (such as N or W) with these entries: they should be simple numeric values.  In Hawaii, longitude will be a negative number. Column headings should include the full word “Latitude” and “Longitude”, not abbreviations.
 
+**REVISED**: Include more data columns if they help you see, track, sort, or select information more easily. Here, site information could be a separate file, or can be incorporated if it simplifies analysis.
+
 
 **4. DATA DEFINITIONS**
 
 **A Data Definitions page** is a separate sheet to add definitions or descriptions for each column header, including full names of abbreviations and all units. This is also the place to include equipment notes, lab information, lab methods, detection limits and their numeric substitutions, and any other general observations or notes that do not have a place within the spreadsheet but need to be kept with the datasheet. If exporting a workbook as csv files, this can be saved as a separate page, possibly as text rather than csv, and should be kept with the data files as **scientific metadata** (e.g., similar name, zipped together).
 
 If you have **geospatial coordinates**, the Data Definitions page **must** include a description of **(1) the source** of the geospatial coordinates (e.g., field-measured with GPS, or specific phone app; estimated visually from Google maps in the lab; GPS from earlier site characterization; pre-existing source such as CWRM well record, etc.), and **(2) the datum** of the source.
+
+**EXAMPLE** of a Data Definitions sheet to accompany a dataset:
 
 
 **5. BEST PRACTICES**
@@ -70,7 +82,7 @@ For **geospatial coordinates**, datum is most likely to be NAD83 (“ North Amer
 
 This [spreadsheet example](https://docs.google.com/spreadsheets/d/18O8ZBmzKx5ftix5-Hkz8sMj7fFLtMiLqhye2BUhTDog/edit#gid=0) illustrates a number of the guidelines described.
 
-Author: Ouida Meier, PhD, ʻIke Wai Data Manager
+Author: Ouida Meier, PhD, ʻIke Wai Data Manager, rev.20170920
 
 
 ### Next section to come: Special considerations for geospatial data
