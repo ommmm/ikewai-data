@@ -1,11 +1,11 @@
 # ikewai-data
 
-**Data Management Guidelines - University of Hawaii EPSCoR - Ike Wai: Knowledge of Water**
+**Data Management Guidelines - University of Hawaii EPSCoR - ʻIke Wai: Knowledge of Water**
 
 
-### Ike Wai Spreadsheet Guidelines
+### ʻIke Wai Spreadsheet Guidelines
 
-These guidelines apply to all `Ike Wai datasheets. Use them with Excel spreadsheets, Open Office, Google sheets, comma-separated csv files, tab-delimited or plain text files - wherever data are stored in a linear or sequential way. The goal is to leave your data clean, simple, and calculation-ready, making it easier to pull data into any software, allow datasets to work together, reuse procedures and code, and store and retrieve data reliably now and long into the future. Your effort is an investment that will pay off quickly and for a long time to come.
+These guidelines apply to all ʻIke Wai datasheets. Use them with Excel spreadsheets, Open Office, Google sheets, comma-separated csv files, tab-delimited or plain text files - wherever data are stored in a linear or sequential way. The goal is to leave your data clean, simple, and calculation-ready, making it easier to pull data into any software, allow datasets to work together, reuse procedures and code, and store and retrieve data reliably now and long into the future. Your effort is an investment that will pay off quickly and for a long time to come.
 
 **1. ORGANIZATION**
 
@@ -31,11 +31,6 @@ These guidelines apply to all `Ike Wai datasheets. Use them with Excel spreadshe
 **3. FORMATS**
 
 **Filenames** should briefly indicate data content (such as isotope, geochem, microbial, salinity) plus an idea of space or time scale (such as subproject, aquifer, island, year)  for easy identification. Filenames and folder names must not include special characters, and should not include spaces. Underscores and dashes are allowed.
-
-
-
-
-
 
 **Dates and Times** are **CRITICAL** pieces of information, and we must treat them consistently.
 Dates should be given as **YYYY-MM-DD**.
@@ -74,6 +69,9 @@ For **geospatial coordinates**, datum is most likely to be NAD83 (“ North Amer
 
 
 This [spreadsheet example](https://docs.google.com/spreadsheets/d/18O8ZBmzKx5ftix5-Hkz8sMj7fFLtMiLqhye2BUhTDog/edit#gid=0) illustrates a number of the guidelines described.
+
+Author: Ouida Meier, PhD, ʻIke Wai Data Manager
+
 
 ### Next section to come: Special considerations for geospatial data
 
