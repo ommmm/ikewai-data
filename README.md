@@ -18,13 +18,13 @@ These guidelines apply to all ʻIke Wai datasheets. Use them with Excel spreadsh
 **Formatting.** Usually, working with the default of left-justified text and right-justified numerals is a good visual check on values, decimal points, and significant digits. Do not center-justify. Do specify number of decimal points and limit significant digits where appropriate (“precision as displayed”).
 
 **BEFORE**: This spreadsheet may be pretty to look at, but it is not calculation-ready.
-![](https://github.com/ommmm/images/example-before.png)
+![](https://github.com/ommmm/images/blob/master/example-before.png)
 
 **DURING**: Here are some of the changes that have to be made.
-![](images/example-during.png)
+![](https://github.com/ommmm/images/blob/master/example-during.png)
 
 **AFTER**: Samples have meaningful unique IDs, and variables and formats are calculation-ready.
-![](images/example-after.png)
+![](https://github.com/ommmm/images/blob/master/example-after.png)
 
 **2. OBSERVATIONS**
 
@@ -52,7 +52,7 @@ DateTime format within a single column is **YYYY-MM-DDThh:mm**.
 **Latitudes and Longitudes:** All latitudes (y, or N-S) and longitudes (x, or E-W) should be in **decimal degrees**.  Do not use degree minute second or decimal minute formats..Do not include letters (such as N or W) with these entries: they should be simple numeric values.  In Hawaii, longitude will be a negative number. Column headings should include the full word “Latitude” and “Longitude”, not abbreviations.
 
 **REVISED**: Include more data columns if they help you see, track, sort, or select information more easily. Here, site information could be a separate file, or can be incorporated if it simplifies analysis.
-![](images/example-revised.png)
+![](https://github.com/ommmm/images/blob/master/example-revised.png)
 
 
 **4. DATA DEFINITIONS**
@@ -62,7 +62,7 @@ DateTime format within a single column is **YYYY-MM-DDThh:mm**.
 If you have **geospatial coordinates**, the Data Definitions page **must** include a description of **(1) the source** of the geospatial coordinates (e.g., field-measured with GPS, or specific phone app; estimated visually from Google maps in the lab; GPS from earlier site characterization; pre-existing source such as CWRM well record, etc.), and **(2) the datum** of the source.
 
 **EXAMPLE** of a Data Definitions sheet to accompany a dataset:
-![](images/example-datadefs.png)
+![](https://github.com/ommmm/images/blob/master/example-datadefs.png)
 
 
 **5. BEST PRACTICES**
