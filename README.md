@@ -49,7 +49,7 @@ DateTime format within a single column is **YYYY-MM-DDThh:mm**.
    Data in the ʻIke Wai project spans multiple centuries. Use **YYYY-MM-DD** format for **ALL** data. Note that for casual use, you can also use **YYYYMMDD** (no dashes) within a text string or filename. If you use a date within a filename or column name, you MUST use the sequence YYYYMMDD or YYYY-MM-DD. Do not use a different order, do not use slashes, and do not shorten the 4-digit year.
    If you have Date and Time data you must provide DateTime format as the official record. If you wish, you may ALSO have, in addition, a separate date column and time column for your own use.
 
-**Latitudes and Longitudes:** All latitudes (y, or N-S) and longitudes (x, or E-W) should be in **decimal degrees**.  Do not use degree minute second or decimal minute formats..Do not include letters (such as N or W) with these entries: they should be simple numeric values.  In Hawaii, longitude will be a negative number. Column headings should include the full word “Latitude” and “Longitude”, not abbreviations.
+**Latitudes and Longitudes:** All latitudes (y, or N-S) and longitudes (x, or E-W) should be in **decimal degrees**.  Do not use degree minute second or decimal minute formats. Do not include letters (such as N or W) with these entries: they should be simple numeric values.  In Hawaii, longitude will be a negative number. Column headings should include the full word “Latitude” and “Longitude”, not abbreviations.
 
 **REVISED**: Include more data columns if they help you see, track, sort, or select information more easily. Here, site information could be a separate file, or can be incorporated if it simplifies analysis.
 ![](https://github.com/ommmm/images/blob/master/example-revised.png)
