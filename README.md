@@ -29,7 +29,7 @@ These guidelines apply to all ʻIke Wai datasheets. Use them with Excel spreadsh
 **2. OBSERVATIONS**
 
 **Units** should be indicated in each column heading with a measurement. The regular guidance with column headers applies here. In writing units, do not include any special characters including slashes, parentheses, commas or spaces. Underscores and dashes are allowed.
-   Example: header **SpCond_uS_cm** for Specific Conductance in microSiemens per centimeter. The standard substitution for “micro” is “u” to avoid using the Greek symbol “mu” (μ), a special character.
+   Example: header **SpCond_uS_cm** for Specific Conductance in microSiemens per centimeter. The standard substitution for “micro” is “u” to avoid using special characters, in this case the Greek symbol “mu” (μ).
 
 **Use NA** (not n.a. or na or N/A) to indicate data not acquired. A blank cell implies that an entry is still to be filled in. Programs like R have simple commands to disregard NA (treating them as blank or missing rather than zero during analysis), so NA is the most widely used for uniformity and consistency.
 
